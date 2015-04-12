@@ -39,6 +39,9 @@
                         <next>
                           <block type="oled_drawtext" id="103">
                             <field name="TEXT">what is your name</field>
+                            <next>
+                              <block type="movement_stop" id="116"></block>
+                            </next>
                           </block>
                         </next>
                       </block>
